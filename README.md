@@ -28,18 +28,27 @@ Trains a LinearRegression model on polynomial features.
 Evaluates the model using metrics like Mean Squared Error (MSE), R² score, and Mean Absolute Error.
 
 File Description:
+
 Housing_Price_Prediction_Model.ipynb: Main notebook containing code for EDA, preprocessing, feature engineering, modeling, and evaluation.
+
 Housing.csv: The dataset used for training and testing the model (make sure this file is in the project directory).
 
 Features Used:
+
 Numerical: area, bedrooms, bathrooms, stories, parking
+
 Categorical: mainroad, guestroom, basement, hotwaterheating, airconditioning, prefarea, furnishingstatus
+
 Engineered: total_rooms, price_per_sqft, area_air
 
 Model:
+
 Polynomial Regression using LinearRegression from scikit-learn.
+
 Feature scaling and train-test splitting included.
 
 Visualization:
+
 Boxplots and histograms for feature distribution.
+
 Heatmap for feature correlation.
