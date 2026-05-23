@@ -23,7 +23,7 @@ Applies polynomial feature transformation for regression.
 Splits the dataset into training and test sets.
 Scales the features using StandardScaler.
 
-5.Model Training & Evaluation
+5. Model Training & Evaluation
 Trains a LinearRegression model on polynomial features.
 Evaluates the model using metrics like Mean Squared Error (MSE), R² score, and Mean Absolute Error.
 
