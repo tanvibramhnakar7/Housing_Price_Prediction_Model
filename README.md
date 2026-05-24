@@ -30,18 +30,18 @@ Evaluates the model using metrics like Mean Squared Error (MSE), R² score, and 
 
 File Description:
 
-Housing_Price_Prediction_Model.ipynb: Main notebook containing code for EDA, preprocessing, feature engineering, modeling, and evaluation.
+1. Housing_Price_Prediction_Model.ipynb: Main notebook containing code for EDA, preprocessing, feature engineering, modeling, and evaluation.
 
-Housing.csv: The dataset used for training and testing the model (make sure this file is in the project directory).
+2. Housing.csv: The dataset used for training and testing the model (make sure this file is in the project directory).
 
 
 Features Used:
 
-Numerical: area, bedrooms, bathrooms, stories, parking
+1. Numerical: area, bedrooms, bathrooms, stories, parking
 
-Categorical: mainroad, guestroom, basement, hotwaterheating, airconditioning, prefarea, furnishingstatus
+2. Categorical: mainroad, guestroom, basement, hotwaterheating, airconditioning, prefarea, furnishingstatus
 
-Engineered: total_rooms, price_per_sqft, area_air
+3. Engineered: total_rooms, price_per_sqft, area_air
 
 
 Model:
